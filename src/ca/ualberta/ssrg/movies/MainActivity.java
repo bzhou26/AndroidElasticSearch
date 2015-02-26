@@ -79,6 +79,8 @@ public class MainActivity extends Activity {
 
 		// Refresh the list when visible
 		// TODO: Search all
+		Thread thread = new SearchThread("dark");
+		thread.start();
 		
 	}
 	
